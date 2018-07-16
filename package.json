@@ -1,10 +1,10 @@
 {
-  "name": "like-trello",
+  "name": "myapp",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_ENV=production NODE_PATH=. node ./bin/www",
-    "dev": "cross-env NODE_ENV=development NODE_PATH=. node ./bin/www"
+    "start": "cross-env NODE_ENV=production NODE_PATH=. ./bin/www",
+    "dev": "cross-env NODE_ENV=development NODE_PATH=. ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -13,11 +13,12 @@
     "express": "~4.16.0",
     "fs-extra": "^6.0.1",
     "http-errors": "~1.6.2",
-    "morgan": "^1.9.0",
+    "mongoose": "^5.2.3",
+    "morgan": "~1.9.0",
     "nconf": "^0.10.0",
     "node-sass-middleware": "0.11.0",
-    "npm": "^6.1.0",
     "pug": "2.0.0-beta11",
+    "shortid": "^2.2.12",
     "winston": "^3.0.0"
   }
 }

@@ -1,0 +1,32 @@
+﻿npm install express-generator -g
+
+https://expressjs.com/en/starter/generator.html
+
+express --view=pug --css=sass myapp_3
+
+переименовіваем app.js в httpserver.js
+
+в папке bin file www переименовываем var appp to httpServer
+
+npm i cross-env --dev
+
+прописываем прод и дем скрипты в пакадже
+
+npm install
+
+npm i nconf --save
+
+https://www.npmjs.com/package/nconf
+
+npm i fs-extra  --save
+
+создаем конфиги
+папка config
+
+запуск монго ДБ из програм файлс через консоль  mongo
+
+почитать про хеш
+почитать про промисі
+
+mongooswjs.com/docs/models.html
+
